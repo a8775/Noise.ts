@@ -1,0 +1,8 @@
+node_modules/
+typings/
+test.ts
+test.js
+test.js.map
+test.d.ts
+
+

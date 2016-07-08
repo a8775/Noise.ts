@@ -1,0 +1,25 @@
+{
+  "name": "noise.ts",
+  "version": "1.0.0",
+  "description": "This project is using SoX - Sound eXchange:\r http://sox.sourceforge.net/Main/HomePage",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a8775/Noise.ts.git"
+  },
+  "keywords": [
+    "noise",
+    "sound",
+    "TypeScript",
+    "sox"
+  ],
+  "author": "a8775",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a8775/Noise.ts/issues"
+  },
+  "homepage": "https://github.com/a8775/Noise.ts#readme"
+}
