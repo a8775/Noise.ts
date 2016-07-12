@@ -8,7 +8,9 @@
     },
     "files": [
         "test.ts",
-        "typings/index.d.ts"
+        "typings/index.d.ts",
+        "lib/RotatingBuffer.ts",
+        "lib/AudioDataStream.ts"
     ]
 }
 

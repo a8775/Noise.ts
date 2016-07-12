@@ -13,14 +13,12 @@ This project is using SoX - Sound eXchange:
 Run the following command to test if your microphone is working correctly:
 
 ```
-sox.exe -t waveaudio 0 -t wav outfile.wav
+d:\>sox.exe -t waveaudio 0 -t wav outfile.wav
 ```
 
 You should get in the output something like that:
 
 ```
-d:\>sox.exe -t waveaudio 0 -t wav outfile.wav
-
 Input File     : '0' (waveaudio)
 Channels       : 2
 Sample Rate    : 48000
@@ -47,7 +45,8 @@ from Microsoft, and possibly use description names but I could not find
 information how actually do that. More on that subject could be found on:
 [Windows Device Console (Devcon.exe)](https://msdn.microsoft.com/pl-pl/library/windows/hardware/ff544707(v=vs.85).aspx).
 
-  
+## WAV files
+WAV file format description: [http://soundfile.sapp.org/doc/WaveFormat/](http://soundfile.sapp.org/doc/WaveFormat/)  
 
 
 

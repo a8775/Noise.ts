@@ -4,5 +4,9 @@ test.ts
 test.js
 test.js.map
 test.d.ts
+*.js 
+*.js.map 
+*.d.ts
+*.txt
 
 
