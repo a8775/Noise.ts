@@ -27,6 +27,8 @@ export class AudioDataStream extends stream.Readable {
             this.info.on('data', function (data) {
                 //process.stdout.write(data);
             });
+
+            this.read(0);
         }
     }
 

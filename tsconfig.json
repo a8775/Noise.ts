@@ -10,7 +10,9 @@
         "test.ts",
         "typings/index.d.ts",
         "lib/RotatingBuffer.ts",
-        "lib/AudioDataStream.ts"
+        "lib/AudioDataStream.ts",
+        "lib/SaveAudioSample.ts",
+        "lib/DateUtil.ts"
     ]
 }
 
