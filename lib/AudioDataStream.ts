@@ -12,7 +12,12 @@ export class AudioDataStream extends stream.Readable {
 
     public start(): void {
         if (this.ps == null) {
-            this.ps = child_process.spawn('sox.exe', ['-t', 'waveaudio', '0', '-t', 's16', '-r', '8192', '-', 'remix', '-a', '-']);
+            this.ps = child_process.spawn('sox.exe', ['-t', 'waveaudio', '0', // input
+                '-t', 's16', // output int16 
+                '-r', '8192', // freq. 
+                '-', // stdout 
+                'remix', '-a', '-' // mix all to one chanel and send to stdout
+            ]);
 
             this.ps.stdout.pipe(this.audio);
             this.ps.stderr.pipe(this.info);

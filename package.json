@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/a8775/Noise.ts/issues"
   },
-  "homepage": "https://github.com/a8775/Noise.ts#readme"
+  "homepage": "https://github.com/a8775/Noise.ts#readme",
+  "dependencies": {
+    "wav-encoder": "1.x"
+  }
 }
